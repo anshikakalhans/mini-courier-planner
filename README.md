@@ -19,22 +19,26 @@ The project demonstrates the practical implementation of Design and Analysis of 
 ## Algorithms Implemented
 
 ### 1. Merge Sort
+
 Used to sort parcels based on their priority scores in descending order.
 
 - Time Complexity: O(n log n)
 
 ### 2. 0/1 Knapsack using Dynamic Programming
+
 Used to select the optimal combination of parcels within the vehicle's maximum weight capacity while maximizing the total priority score.
 
 - Time Complexity: O(n × W)
 - Space Complexity: O(n × W)
 
 ### 3. Dijkstra's Shortest Path Algorithm
+
 Used to calculate the shortest paths between delivery locations using a weighted graph and priority queue.
 
 - Time Complexity: O((V + E) log V)
 
 ### 4. Nearest Neighbor TSP
+
 Used to generate an approximate delivery route by visiting the nearest unvisited delivery location and returning to the starting depot.
 
 - Uses Dijkstra's algorithm to calculate distances between locations.
@@ -67,6 +71,7 @@ mini courier planner/
     ├── complete main.py output.png
     ├── dijkstra output.png
     ├── folder structure.png
+    ├── knapsack brute force verification.png
     ├── knapsack output.png
     ├── runtime comparison graph.png
     ├── runtime CSV results.png
@@ -94,6 +99,7 @@ The system produces the following results using the sample dataset:
 | Vehicle Capacity | 15 kg |
 | Total Selected Weight | 15 kg |
 | Maximum Priority Score | 290 |
+| Brute-Force Verified Optimal Score | 290 |
 | Delivery Route | A → B → C → D → A |
 | Total Route Distance | 18 km |
 
@@ -152,7 +158,7 @@ The performance results are stored in:
 
 ## Screenshots
 
-The `screenshots` folder contains the execution outputs of individual algorithms, the complete application, project structure, and runtime performance analysis.
+The `screenshots` folder contains the execution outputs of individual algorithms, the complete application, project structure, Knapsack brute-force verification, and runtime performance analysis.
 
 ## Conclusion
 
